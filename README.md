@@ -1,5 +1,8 @@
 # Sage Blade Icons
 
+![Packagist Version](https://img.shields.io/packagist/v/zirkeldesign/sage-blade-icons.svg?style=flat-square)
+![Packagist](https://img.shields.io/packagist/dt/zirkeldesign/sage-blade-icons.svg?style=flat-square)
+
 Sage Blade Icons is a simple Composer package / wrapper to use [Blade Icons](https://github.com/blade-ui-kit/blade-icons) with [Sage 10](https://github.com/roots/sage).
 
 ## Requirements
