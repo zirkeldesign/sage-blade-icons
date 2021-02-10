@@ -22,7 +22,7 @@
     "blade-ui-kit/blade-icons": "^0.5.1"
   },
   "require-dev": {
-    "roots/acorn": "dev-laravel8"
+    "roots/acorn": "dev-main"
   },
   "config": {
     "optimize-autoloader": true,
