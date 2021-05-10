@@ -3,7 +3,7 @@
   "type": "package",
   "license": "MIT",
   "description": "Use blade-ui-kit/blade-icons in roots/sage themes.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [{
     "name": "Daniel Sturm",
     "email": "d.sturm@zirkeldesign.de"
@@ -18,8 +18,8 @@
   },
   "require": {
     "php": "^7.3|^8.0",
-    "blade-ui-kit/blade-heroicons": "^0.3.1",
-    "blade-ui-kit/blade-icons": "^0.5.1"
+    "blade-ui-kit/blade-heroicons": "^1.2",
+    "blade-ui-kit/blade-icons": "^1.0"
   },
   "require-dev": {
     "roots/acorn": "dev-main"
