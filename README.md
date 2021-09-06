@@ -25,6 +25,12 @@ This package comes with a build-in dependency for the base package [Blade Icons]
 composer require blade-ui-kit/blade-heroicons
 ```
 
+After this you should be able to use a package-depended [Blade component](https://laravel.com/docs/8.x/blade#components) to include your icon in the Blade views. I.e.
+
+```blade
+<x-heroicon-o-adjustments class="w-6 h-6 text-gray-500"/>
+```
+
 ## Bug Reports
 
 If you discover a bug in Sage Blade Icons, please [open an issue](https://github.com/zirkeldesign/sage-blade-icons/issues).
