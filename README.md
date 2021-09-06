@@ -13,10 +13,16 @@ Sage Blade Icons is a simple Composer package / wrapper to use [Blade Icons](htt
 
 ## Installation
 
-Install via Composer:
+Install via package Composer:
 
-```bash
-$ composer require zirkeldesign/sage-blade-icons
+```sh
+composer require zirkeldesign/sage-blade-icons
+```
+
+This package comes with a build-in dependency for the base package [Blade Icons](https://github.com/blade-ui-kit/blade-icons). To use a specific [icon package](https://github.com/blade-ui-kit/blade-icons#icon-packages) (i.e. [Blade Heroicons](https://github.com/blade-ui-kit/blade-heroicons)), you'll need to require the package via Composer:
+
+```sh
+composer require blade-ui-kit/blade-heroicons
 ```
 
 ## Bug Reports
