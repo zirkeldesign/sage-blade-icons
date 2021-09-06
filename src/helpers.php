@@ -1,6 +1,6 @@
 <?php
 
-if (! function_exists('public_path')) {
+if (!function_exists('public_path')) {
     /**
      * Get the path to the public folder.
      *
@@ -16,7 +16,7 @@ if (! function_exists('public_path')) {
     }
 }
 
-if (! function_exists('app')) {
+if (!function_exists('app')) {
     /**
      * Get the available container instance.
      *
@@ -30,5 +30,21 @@ if (! function_exists('app')) {
     function app(?string $abstract = null, array $parameters = [])
     {
         return Roots\app($abstract, $parameters);
+    }
+}
+
+if (!function_exists('resource_path')) {
+    /**
+     * Get the path to the resources folder.
+     *
+     * @param  string  $path
+     * @return string
+     *
+     * @copyright Taylor Otwell
+     * @link https://github.com/laravel/framework/blob/8.x/src/Illuminate/Foundation/helpers.php
+     */
+    function resource_path($path = '')
+    {
+        return Roots\resource_path($path);
     }
 }
