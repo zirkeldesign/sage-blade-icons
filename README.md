@@ -21,7 +21,7 @@ $ composer require zirkeldesign/sage-blade-icons
 
 ## Bug Reports
 
-If you discover a bug in Sage Blade Icons, please [open an issue](https://github.com/log1x/sage-directives/issues).
+If you discover a bug in Sage Blade Icons, please [open an issue](https://github.com/zirkeldesign/sage-blade-icons/issues).
 
 ## License
 
