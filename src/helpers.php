@@ -1,5 +1,12 @@
 <?php
 
+$override = defined('\Roots\Acorn\Application::VERSION')
+    && false === strpos(\Roots\Acorn\Application::VERSION, 'Acorn 2.x');
+
+if (!$override) {
+    return;
+}
+
 if (!function_exists('public_path')) {
     /**
      * Get the path to the public folder.
