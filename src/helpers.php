@@ -1,9 +1,9 @@
 <?php
 
-$override = defined('\Roots\Acorn\Application::VERSION')
-    && false === strpos(\Roots\Acorn\Application::VERSION, 'Acorn 2.x');
+$override = defined('\Illuminate\Foundation\Application::VERSION')
+    && version_compare(\Illuminate\Foundation\Application::VERSION, '8.68.1', '>=');
 
-if (!$override) {
+if ($override) {
     return;
 }
 
